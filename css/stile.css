@@ -34,3 +34,20 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+	padding: 30px;
+}
+
+.block{
+	margin: 30px;
+}
+.block p{
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0 0 20px 0;
+}
+
+.link{
+	color: red;
+}
