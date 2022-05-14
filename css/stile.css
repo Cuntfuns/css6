@@ -42,6 +42,29 @@ body{
 .block{
 	margin: 30px;
 }
+
+.block p:nth-child(odd){
+	background-color: yellow;
+}
+
+.block p:nth-child(even){
+	background-color: #eee;
+}
+
+.block p:nth-child(1){
+	background-color: yellow;
+}
+
+.block p:nth-child(2){
+	background-color: #eee;
+}
+
+.block p:nth-child(3){
+	background-color: green;
+}
+
+.block:hover{}
+
 .block p{
 	font-size: 18px;
 	line-height: 24px;
@@ -51,3 +74,69 @@ body{
 .link{
 	color: red;
 }
+
+.link:visited{
+	color: green;
+}
+
+.link:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.link:active{
+	color: yellow;
+}
+
+.textimput{
+	border: 1px solid #666;
+	height: 50px;
+	padding: 0 15px;
+	font-size: 18px;
+	width: 300px;
+	margin: 0 0 10px 0;
+}
+
+.textimput:focus{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.textbutton{
+	display: block;
+	width: 300px;
+	height: 50px;
+	background-color: #666;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 0 30px 0;
+}
+
+.textbutton:hover{
+	background-color: #333;
+	color: yellow;
+}
+
+.textbutton:active{
+	background-color: #eee;
+}
+
+.list{}
+
+.list li{
+	font-size: 18px;
+	margin: 0 0 15px 0;
+}
+/*
+.list li:first-child{
+	color: green;
+}
+
+.list li:last-child{
+	color: blue;
+	font-weight: 700;
+}
+*/
+.list li:nth-child(even){
+	text-transform: uppercase;
+}
+
