@@ -120,7 +120,9 @@ body{
 	background-color: #eee;
 }
 
-.list{}
+.list{
+
+}
 
 .list li{
 	font-size: 18px;
