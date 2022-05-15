@@ -45,9 +45,10 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 2.8px;
 	margin: 0 0 24px 0;
+	font-weight: 700;
 }
 
-.all__block li{
+.allblock li{
 	font-size: 20px;
 	color: #273d46;
 	padding: 0 0 0 34px;
@@ -58,30 +59,73 @@ body{
 margin: 0 0 81px 0;
 }
 
-.content__block li{
+.contentblock li{
 	margin: 0 0 12px 0;
 }
 
-.content__block li:nth-child(1){
+.contentblock li:nth-child(1){
 	text-decoration: line-through;
 }
-.content__block li:nth-child(2){
+.contentblock li:nth-child(2){
 	font-weight: 700;
 }
-.content__block li:nth-child(3){
+.contentblock li:nth-child(3){
 	font-style: italic;
 }
-.content__block li:nth-child(4){
+.contentblock li:nth-child(4){
 	text-transform: uppercase;
 }
 
-.list{}
+.listblock{
+	margin: 0 0 137px 0;
+}
 
-.list__block li{
+.listblock li{
 	margin: 0 0 15px 0;
 }
 
-.list__block li:nth-child(2):hover{
+.listblock li:nth-child(2):hover{
 	background: url(../img/check_icon_2.png) left no-repeat;
 	color: red;
+}
+
+.content-bottom-infolink{
+	width: 199px;
+	height: 44px;
+	display: inline-block;
+	background-color: #80b7b3;
+	border-radius: 24px;
+	line-height: 44px;
+	padding: 0 27px;
+	margin: 0 0 125px 0;
+}
+
+.content-bottom-infolink span{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	padding: 0 30px 0 0;
+	background: url(../img/Shape_2.png) right no-repeat;
+}
+
+.content-bottom-infolink:hover{
+	background: #3a5856;
+	box-shadow: 0 0 20px rgba(58, 88, 86, 0.4);
+}
+.content-bottom-infolink:active{
+	background: #818181;
+}
+
+.textimput{
+	border: 1px solid grey;
+	height: 50px;
+	padding: 0 15px;
+	font-size: 18px;
+	width: 300px;
+	margin: 0 0 10px 0;
+}
+
+.textimput:focus{
+	box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+	border: 1px solid #7fbed5;
 }
